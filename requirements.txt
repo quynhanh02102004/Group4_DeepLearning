@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-multipart
+torch
+torchvision
+faiss-cpu
+numpy==1.24.3
+pandas 
+gdown
+Pillow
+pydantic
