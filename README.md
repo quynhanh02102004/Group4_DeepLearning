@@ -21,7 +21,7 @@ Nếu muốn đọc code thì FastAPI nằm trong folder backend (link GitHub)
 Mở Terminal (hoặc Command Prompt/PowerShell) và chạy lệnh sau để tải mã nguồn về máy:
 
 ```bash
-git clone https://github.com/quynhanh02102004/yame-api-deploy.git
+git clone https://github.com/quynhanh02102004/Group4_DeepLearning.git
 ```
 *(Lưu ý: Thay thế URL trên bằng URL đến repository của bạn nếu khác.)*
 
