@@ -21,14 +21,14 @@ Nếu muốn đọc code thì FastAPI nằm trong folder backend (link GitHub)
 Mở Terminal (hoặc Command Prompt/PowerShell) và chạy lệnh sau để tải mã nguồn về máy:
 
 ```bash
-git clone https://github.com/quynhanh02102004/backend_deeplearning.git
+git clone https://github.com/quynhanh02102004/Group4_DeepLearning.git
 ```
 *(Lưu ý: Thay thế URL trên bằng URL đến repository của bạn nếu khác.)*
 
 Sau đó, di chuyển vào thư mục của dự án:
 
 ```bash
-cd yame-api-deploy
+cd Group4_DeepLearning
 ```
 
 ### 2. Thiết Lập Môi Trường Ảo
@@ -54,14 +54,13 @@ Tất cả các thư viện mà dự án yêu cầu đã được liệt kê tro
 ```bash
 pip install -r requirements.txt
 ```
-*maybe có thể phải cài thêm tại t chưa update lại thêm thư viện trong file nè*
+*t update đủ thư viện gòi nên chỉ cần pip là đc nhe*
 ### 4. Cấu Hình Biến Môi Trường
 
 Ứng dụng cần thông tin để kết nối đến cơ sở dữ liệu MongoDB Atlas.
 
-1.  Trong thư mục dự án, tìm file có tên `.env.example`.
-2.  Tạo một bản sao của file này và đổi tên thành `.env`.
-3.  Mở file `.env` và điền các thông tin của bạn vào:
+1.  Trong thư mục dự án, tạo new file là `.env`
+2.  Mở file `.env` và điền các thông tin của bạn vào:
 
     ```ini
     # Dán chuỗi kết nối MongoDB Atlas của bạn vào đây
