@@ -1,11 +1,18 @@
+# === FastAPI Web Framework ===
 fastapi
 uvicorn[standard]
 python-multipart
+
+# === Database Connection ===
+pymongo[srv]
+python-dotenv
+
+# === AI & Machine Learning ===
 torch
 torchvision
-faiss-cpu
 numpy==1.24.3
-pandas 
+
+# === Utilities ===
 gdown
 Pillow
 pydantic
